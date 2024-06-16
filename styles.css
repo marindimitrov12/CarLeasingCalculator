@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator-container {
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.calculator-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calculator-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.slider-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.slider-group input[type="range"] {
+    width: 48%;
+}
+
+.leasing-details {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leasing-details h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.details-left,
+.details-right {
+    width: 48%;
+}
+
+.leasing-details p {
+    font-size: 16px;
+    margin: 10px 0;
+}
